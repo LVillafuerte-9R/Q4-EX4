@@ -1,0 +1,110 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/23/91/a5/2391a5410336dda4f23978a93ebb6783.gif);
+  background-size: cover;
+  background-position: center;
+  color: #EFB6C8;            
+  font-family: monospace;    
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pixel-browser {
+  width: 350px;
+  height: 525px;
+  background-color: #7C4585;
+  border: 5px solid #210F37;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+    .browser-header {
+      background-color: #410445;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border-bottom: 1px solid #000000;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .red { 
+      background-color: #2A004E; 
+    }
+
+   .yellow { 
+    background-color: #69247C; 
+  }
+    
+    .green { 
+      background-color: #EFB6C8; 
+    }
+
+    .address-bar {
+      flex-grow: 1;
+      height: 14px;
+      background-color: #ffffff;
+      border: 1px solid #000000;
+    }
+
+    .browser-body {
+      padding: 10px;
+      font-size: 14px;
+      flex-grow: 1;
+    }
+
+    .btn-pixel {
+      background-color: #2A004E;
+      border: 2px solid #000000;
+      color: #EFB6C8;
+      box-shadow: 2px 2px 0 #000000;
+      padding: 5px 10px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .btn-pixel:hover {
+      background-color: #EFB6C8;
+      color: #2A004E;
+    }
+
+    .browser-footer {
+      padding: 5px;
+      text-align: center;
+    }
+
+.browser-footer img {
+  height: 255px;
+  width: 100%;
+  object-fit: cover;
+  border-top: 1px solid #000;
+}
+
+.browser-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #7C4585;
+  border-top: 5px solid #3B1E54;
+  color: #EFB6C8;
+  width: 100%;
+  font-family: monospace;
+}
